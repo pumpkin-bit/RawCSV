@@ -15,3 +15,9 @@ obj/
 # os
 Thumbs.db
 .DS_Store
+
+# log files 
+*.html
+*.log
+results/
+BenchmarkDotNet.Artifacts/
