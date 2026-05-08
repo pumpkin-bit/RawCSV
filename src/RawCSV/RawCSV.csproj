@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <PackageId>RawCSV</PackageId>
+    <Description>Small and fast RFC4180 CSV parser</Description>
+    <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
+    <PackageTags>csv;parser;rfc4180;zero-allocation;span;simd</PackageTags>
+  </PropertyGroup>
+
+</Project>
