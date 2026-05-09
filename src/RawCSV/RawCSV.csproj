@@ -6,10 +6,21 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <PackageId>RawCSV</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>pumpkin-bit</Authors>
     <Description>Small and fast RFC4180 CSV parser</Description>
     <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
-    <PackageTags>csv;parser;rfc4180;zero-allocation;span;simd</PackageTags>
+    <PackageTags>csv;parser;rfc4180;small;span;simd</PackageTags>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <PackageProjectUrl>https://github.com/pumpkin-bit/RawCSV</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/pumpkin-bit/RawCSV</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
   <ItemGroup>
     <Using Include="System.Buffers" />
