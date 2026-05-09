@@ -4,11 +4,19 @@
     <TargetFramework>net8.0</TargetFramework>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <Nullable>enable</Nullable>
-    <ImplicitUsings>disable</ImplicitUsings>
+    <ImplicitUsings>enable</ImplicitUsings>
     <PackageId>RawCSV</PackageId>
     <Description>Small and fast RFC4180 CSV parser</Description>
     <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
     <PackageTags>csv;parser;rfc4180;zero-allocation;span;simd</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Using Include="System.Buffers" />
+    <Using Include="System.Collections.Generic" />
+    <Using Include="System.Runtime.CompilerServices" />
+    <Using Include="System.Runtime.InteropServices" />
+    <Using Include="System.Text" />
+  </ItemGroup>
 
 </Project>
