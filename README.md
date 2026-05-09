@@ -58,7 +58,11 @@ while (parser.next(out Range fieldIndices) != 0)
 
 ## Install 
 
-Install the [NuGet]() or dotnet add package RawCSV
+Install via [NuGet](https://www.nuget.org/packages/RawCSV) or:
+
+```bash
+dotnet add package RawCSV
+```
 
 ## Performance
 
