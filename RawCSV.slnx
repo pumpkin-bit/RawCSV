@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/bench/">
+    <Project Path="bench/RawCSV.Bench/RawCSV.Bench.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/RawCSV/RawCSV.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/RawCSV.Tests/RawCSV.Tests.csproj" />
+  </Folder>
+</Solution>
