@@ -15,11 +15,11 @@
     <PackageProjectUrl>https://github.com/pumpkin-bit/RawCSV</PackageProjectUrl>
     <RepositoryUrl>https://github.com/pumpkin-bit/RawCSV</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReadmeFile>README_package.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="README.md" Pack="true" PackagePath="\"/>
+    <None Include="README_package.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
   <ItemGroup>
